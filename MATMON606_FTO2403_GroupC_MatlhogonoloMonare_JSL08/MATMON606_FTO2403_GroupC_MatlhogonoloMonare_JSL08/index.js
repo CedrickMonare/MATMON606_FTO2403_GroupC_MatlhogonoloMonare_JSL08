@@ -26,6 +26,10 @@ getBranchInfo() {
 
 // 5. In the usage section:
 //    - Create instances of the `BankBranch` class, such as `branchA` and `branchB`, with different branch information.
+const branchInfo1 = { name: "Branch A", address: "22 Stevens Avenue." };
+const branchA = BankBranch.getInstance(branchInfo1);
+const branchInfo2 = { name: "Branch B", address: "50 Long Street" };
+const branchB = BankBranch.getInstance(branchInfo2);
 //    - Use the `getBranchInfo` method to retrieve branch information from the instances.
 //    - Verify that `branchA` and `branchB` are both referring to the same instance by comparing them using `===`.
 
